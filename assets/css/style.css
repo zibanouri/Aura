@@ -19,4 +19,15 @@ body{
     top: 0;
     z-index: 1000;
 }
-
+.menu-toggle{
+background: #f7f1e3;
+border: none;
+font-size: 24px;
+cursor: pointer;
+padding: 6px;
+color: #2f3542;
+}
+.header h1{
+    font-size: 22px;
+    color: #2f3542;
+}
