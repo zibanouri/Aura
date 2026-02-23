@@ -49,12 +49,12 @@ body {
   gap: 12px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
-.sidebar-header h2{
-color: #fff;
-font-size: 20px;
-flex: 1;
+.sidebar-header h2 {
+  color: #fff;
+  font-size: 20px;
+  flex: 1;
 }
-.btn-close{
+.btn-close {
   background: transparent;
   border: none;
   color: #fff;
@@ -85,6 +85,11 @@ flex: 1;
 .menu-items li a:hover,
 .menu-items li a.active {
   background: rgba(255, 255, 255, 0.1);
-color: #fff;
-border-left-color:#ffa502 ;
+  color: #fff;
+  border-left-color: #ffa502;
+}
+.menu-items i{
+width: 20px;
+text-align: center;
+font-size: 20px;
 }
