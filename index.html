@@ -1,63 +1,134 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
     <header class="header">
-        <button class="menu-toggle" onclick="toggleMenu">
-            <i class="fa fa-bars"></i>
-        </button>
-        <h1>My Menu</h1>
+      <button class="menu-toggle" onclick="toggleMenu">
+        <i class="fa fa-bars"></i>
+      </button>
+      <h1>My Menu</h1>
     </header>
     <div class="main-wrapper">
-        <nav class="sidebar" id="sidebar">
-            <div class="sidebar-header">
-                <button class="btn-close" onclick="toggleMenu()">
-                    <i class="fa fa-times"></i>
-                </button>
-                <h2>My Menu</h2>
-            </div>
-            <ul class="menu-items">
-                <li><a href="#" class="active"><i class="fa fa-chart-line"></i><span>DASHBOARD</span></a></li>
-                <li><a href="#"><i class="fa fa-link"></i><span>SHORTCUTS</span></a></li>
-                <li><a href="#"><i class="fa fa-clipboard-list"></i><span>OVERVIEW</span></a></li>
-                <li><a href="#"><i class="fa fa-calendar-alt"></i><span>EVENTS</span></a></li>
-                <li><a href="#"><i class="fa fa-user"></i><span>ABOUT</span></a></li>
-                <li><a href="#"><i class="fa fa-tools"></i><span>SERVICES</span></a></li>
-                <li><a href="#"><i class="fa fa-envelope"></i><span>CONTACT</span></a></li>
-            </ul>
-        </nav>
-        <main class="main-content">
-            <h2 class="title-parag">SIDE MENU BAR RESPONSIVE</h2>
-            <p class="parag">Lorem ipsum, dolor sit amet consectetur adipisicing elit...</p>
-        </main>
-    </div> 
-
-     <footer>
-        <div class="footer-content">
-          <p class="parag">© 2026 Ziba Nouri. All rights reserved.</p>
-        <p class="parag">zn.zibanouri@gmail.com</p>
-       <div class="links">
-                <a href="https://github.com" target="_blank" title="GitHub">
-                    <i class="fab fa-github"></i>
-                </a>
-                <a href="https://linkedin.com" target="_blank" title="LinkedIn">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-                <a href="https://instagram.com" target="_blank" title="Instagram">
-                    <i class="fab fa-instagram"></i>
-                </a>
-            </div>
+      <nav class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+          <button class="btn-close" onclick="toggleMenu()">
+            <i class="fa fa-times"></i>
+          </button>
+          <h2>My Menu</h2>
         </div>
-      </footer>
-     
-</body>
+        <ul class="menu-items">
+          <li>
+            <a href="#" class="active"
+              ><i class="fa fa-chart-line"></i><span>DASHBOARD</span></a
+            >
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-link"></i><span>SHORTCUTS</span></a>
+          </li>
+          <li>
+            <a href="#"
+              ><i class="fa fa-clipboard-list"></i><span>OVERVIEW</span></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><i class="fa fa-calendar-alt"></i><span>EVENTS</span></a
+            >
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-user"></i><span>ABOUT</span></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-tools"></i><span>SERVICES</span></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-envelope"></i><span>CONTACT</span></a>
+          </li>
+        </ul>
+      </nav>
+      <main class="main-content">
+        <h2 class="title-parag">SIDE MENU BAR RESPONSIVE</h2>
+        <p class="parag">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum,
+          dolor sit amet consectetur adipisicing elit Lorem ipsum, dolor sit
+          amet consectetur adipisicing elit Lorem ipsum, dolor sit amet
+          consectetur adipisicing elit!
+        </p>
+        <div class="cards-row">
+          <div class="card-1">
+            <div>
+              <img src="assets/images/images (1).jpg" alt="" />
+            </div>
+            <div class="card-content"></div>
+            <h3>Card sample 1</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia,
+              nisi.
+            </p>
+            <button class="card-btn">view all</button>
+          </div>
+          
+          <div class="card-2">
+            <div>
+              <img src="assets/images/images.jpg" alt="" />
+            </div>
+            <div class="card-content"></div>
+            <h3>Card sample 2</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia,
+              nisi.
+            </p>
+            <button class="card-btn">view all</button>
+          </div>
+          
+          <div class="card-3">
+            <div>
+              <img src="assets/images/images (6).jpg" alt="">
+            </div>
+            <div class="card-content"></div>
+            <h3>Card sample 3</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia,
+              nisi.
+            </p>
+            <button class="card-btn">view all</button>
+          </div>
+          
+        </div>
+      </main>
+    </div>
+
+    <footer>
+      <div class="footer-content">
+        <p class="parag">© 2026 Ziba Nouri. All rights reserved.</p>
+        <p class="parag">zn.zibanouri@gmail.com</p>
+        <div class="links">
+          <a href="https://github.com" target="_blank" title="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://linkedin.com" target="_blank" title="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://instagram.com" target="_blank" title="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
