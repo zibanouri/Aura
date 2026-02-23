@@ -93,3 +93,7 @@ width: 20px;
 text-align: center;
 font-size: 20px;
 }
+.menu-items span {
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
