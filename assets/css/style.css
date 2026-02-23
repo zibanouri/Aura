@@ -97,3 +97,36 @@ font-size: 20px;
   font-size: 16px;
   letter-spacing: 0.5px;
 }
+.header {
+  background-color: #fff;
+  padding: 15px 20px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.menu-toggle {
+  background: #ffa502;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 8px 12px;
+  color: #2f3542;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+.menu-toggle:hover {
+  background: #f5c463;
+}
+
+.header h1 {
+  font-size: 24px;
+  color: #2f3542;
+  font-weight: 600;
+}
