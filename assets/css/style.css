@@ -82,3 +82,9 @@ flex: 1;
   transition: all 0.3s;
   border-left: 4px solid transparent;
 }
+.menu-items li a:hover,
+.menu-items li a.active {
+  background: rgba(255, 255, 255, 0.1);
+color: #fff;
+border-left-color:#ffa502 ;
+}
