@@ -146,6 +146,7 @@ body {
   font-size: 18px;
   color: #2f3542;
   font-weight: 600;
+  padding: 18px;
 }
 .cards-row {
   display: flex;
@@ -163,4 +164,23 @@ body {
   padding: 15px;
   text-align: center;
   border-radius: 10px;
+}
+.card-row img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.card-1{
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s;
+}
+
+.card-1:hover {
+  transform: translateY(-5px);
 }
