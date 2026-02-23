@@ -58,8 +58,17 @@ flex: 1;
   background: transparent;
   border: none;
   color: #fff;
-  font-size: 20px;
+  font-size: 21px;
   cursor: pointer;
   padding: 4px;
   transition: transform 0.3s;
+}
+.btn-close:hover {
+  transform: scale(1.1);
+}
+/* menu items */
+.menu-items {
+  list-style: none;
+  padding: 10px 0;
+  flex: 1;
 }
