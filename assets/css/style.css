@@ -72,3 +72,13 @@ flex: 1;
   padding: 10px 0;
   flex: 1;
 }
+.menu-items li a {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 20px;
+  color: #dfe4ea;
+  text-decoration: none;
+  transition: all 0.3s;
+  border-left: 4px solid transparent;
+}
