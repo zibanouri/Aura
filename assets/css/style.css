@@ -274,3 +274,18 @@ footer {
   color: white;
   line-height: 1.5;
 }
+.parag:first-child {
+  font-weight: 500;
+  color: white;
+}
+.parag a{
+  color: rgb(134, 132, 132);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+.parag a:hover{
+  color:rgb(134, 132, 132);
+  text-decoration: underline
+
+}
+
