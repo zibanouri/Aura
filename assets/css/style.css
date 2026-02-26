@@ -135,7 +135,7 @@ body {
 .main-wrapper {
   display: flex;
   margin-top: 60px;
-  min-height: calc(100vh - 60px);
+  min-height: calc(100vh - 90px);
 }
 .main-content {
   flex: 1;
@@ -150,7 +150,7 @@ body {
 .parag {
   margin-bottom: 50px;
   font-size: 18px;
-  color: rgb(100, 93, 93);
+  color: rgb(27, 25, 25);
 }
 .cards-row {
   display: flex;
@@ -268,13 +268,13 @@ footer {
   gap: 16px;
   text-align: center;
 }
-.parag {
+.parag-f {
   margin: 0;
   font-size: 1rem;
   color: white;
   line-height: 1.5;
 }
-.parag:first-child {
+.parag-f:first-child {
   font-weight: 500;
   color: white;
 }
@@ -283,7 +283,7 @@ footer {
   text-decoration: none;
   transition: color 0.3s;
 }
-.parag a:hover {
+.parag-f a:hover {
   color: rgb(134, 132, 132);
   text-decoration: underline;
 }
@@ -310,4 +310,3 @@ footer {
   transform: translateY(-3px);
   background-color: rgb(117, 112, 112);
 }
-
