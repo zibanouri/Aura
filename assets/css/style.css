@@ -306,3 +306,8 @@ footer {
   transition: all 0.3s;
   border: 1px solid transparent;
 }
+.links a:hover{
+  transform: translateY(-3px);
+  background-color: rgb(117, 112, 112);
+}
+
