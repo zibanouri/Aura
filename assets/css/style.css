@@ -278,14 +278,31 @@ footer {
   font-weight: 500;
   color: white;
 }
-.parag a{
+.parag a {
   color: rgb(134, 132, 132);
   text-decoration: none;
   transition: color 0.3s;
 }
-.parag a:hover{
-  color:rgb(134, 132, 132);
-  text-decoration: underline
-
+.parag a:hover {
+  color: rgb(134, 132, 132);
+  text-decoration: underline;
 }
-
+.links {
+  display: flex;
+  gap: 1rem;
+  margin-top: 8px;
+}
+.links a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background-color: rgb(59, 58, 58);
+  color: white;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: all 0.3s;
+  border: 1px solid transparent;
+}
