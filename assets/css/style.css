@@ -80,7 +80,7 @@ body {
 .menu-items li a {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 26px;
   padding: 12px 20px;
   color: #dfe4ea;
   text-decoration: none;
